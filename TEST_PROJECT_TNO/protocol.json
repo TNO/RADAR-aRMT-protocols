@@ -1,0 +1,64 @@
+{
+    "version": "0.4.6",
+    "schemaVersion": "0.0.2",
+    "name": "RADAR STAGING Project",
+    "healthIssues": [
+      "depression"
+    ],
+    "protocols": [
+      {
+        "name": "tno-demo-questionnaire-1",
+        "showIntroduction": false,
+        "showInCalendar": false,
+        "isDemo": true,
+        "order": 3,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "sample-field-types",
+          "avsc": "task"
+        },
+        "startText": {
+          "en": "Welcome to testing tasks",
+          "it": "",
+          "nl": "Welkom bij de demo vragenlijst",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "Bedankt voor je tijd vandaag",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 5,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 5
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [
+              540,1020
+            ]
+          },
+          "reminders": {
+            "unit": "day",
+            "amount": 5,
+            "repeat": 2
+          }
+        }
+      }
+    ]
+  }

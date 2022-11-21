@@ -1,13 +1,13 @@
 {
-    "version": "0.4.6",
-    "schemaVersion": "0.0.2",
+    "version": "0.0.1",
+    "schemaVersion": "0.0.1",
     "name": "RADAR STAGING Project",
     "healthIssues": [
       "depression"
     ],
     "protocols": [
       {
-        "name": "tno-demo-questionnaire-1",
+        "name": "tno_demo_questionnaire",
         "showIntroduction": false,
         "showInCalendar": false,
         "isDemo": true,

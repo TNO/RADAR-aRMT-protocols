@@ -2,9 +2,6 @@
     "version": "0.0.1",
     "schemaVersion": "0.0.1",
     "name": "TNO Demo questionnaire",
-    "healthIssues": [
-      "depression"
-    ],
     "protocols": [
       {
         "name": "tno_demo_questionnaire",
@@ -14,7 +11,7 @@
         "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "sample-field-types",
+          "name": "tno_demo_questionnaire",
           "avsc": "task"
         },
         "startText": {

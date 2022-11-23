@@ -7,7 +7,7 @@
         "name": "tno_demo_questionnaire",
         "showIntroduction": false,
         "showInCalendar": false,
-        "isDemo": true,
+        "isDemo": false,
         "order": 3,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/TNO/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
